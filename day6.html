@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Tables and Input tags</title>
+        <style>
+            table,th,td{
+                border: 10px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Input Tag -->
+         <h5>Login Page</h5>
+        <label> Username:</label>
+        <input type="text" placeholder="Enter your name" required/>
+        <br/>
+        <label>Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="password" placeholder="Enter your Password"/>
+        <br/>
+        <label>Gender:</label>
+        <input type="radio" name="gender"/>Male
+        <input type="radio" name="gender">Female</input>
+        <input type="radio" name="gender"/><label>prefer not to say</label>
+        <br/>
+        <input type="number"/>
+        <br/>
+        <hr/>
+        <!-- Table -->
+         
+        <table>
+            <!-- tr : table row  -->
+             <!-- rowspan, colspan -->
+             <tr>
+                <!-- th : table heading -->
+                <th>Company</th>
+                <th>MailId</th>
+                <th>Contact</th>
+                <th>About us</th>
+             </tr>
+             <tr>
+                <!-- td : table data -->
+                 <td colspan="5">Wipro</td>
+                 <!-- <td>abc@wipro</td> -->
+                 <td>+21 7896 5632</td>
+                 <td>Wipro Ltd</td>
+             </tr>
+             <tr>
+                <td rowspan="2">Zoho</td>
+                <td>xyz@zoho.com</td>
+                <td>+91 7896 5632</td>
+                <td>Zoho pvt ltd</td>
+             </tr>
+              <tr>
+                <td>Infosys</td>
+                <td>xyz@infosys.com</td>
+                <td>+91 9796 5632</td>
+                <td>Zoho pvt ltd</td>
+             </tr>
+        </table>
+    </body>
+</html>

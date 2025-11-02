@@ -1,0 +1,101 @@
+/* 1. Element Selector */
+/*h2{
+    color: yellow;
+    background-color: black;
+}
+p{
+    color: yellow;
+    background-color: black;
+}
+*/
+
+/* body{
+    color: yellow;
+    border: 2px dotted red;
+    background-color: black;
+}
+*/
+
+/* --------------------------------------------- */
+/*2. Element Selector List*/
+/* h2,p{
+    color: yellow;
+    background-color: black;
+} */
+
+/* --------------------------------------------- */
+/*3. Universal Selector*/
+/* 
+*{
+    color: yellow;
+    border: 2px dotted red;
+    background-color: black;
+}
+ */
+
+/* --------------------------------------------- */
+/*4. Id Selector*/
+/* 
+#h2count3{
+    background-color: greenyellow;
+    border: 2px solid seagreen;
+    color: red;
+} 
+*/
+
+/* --------------------------------------------- */
+/*5. Class Selector*/
+/* 
+.h2ClassSelector{
+    background-color: aquamarine;
+    border: 2px double dodgerblue;
+    color: brown;
+    border-radius: 50px;
+}
+ */
+
+/* 
+Units in CSS 
+px, %, vh, vw, rem, em 
+ */
+
+/* --------------------------------------------- */
+/*6. Descendant Selector*/
+/* li a{
+    color: white;
+    background-color: black;
+} */
+
+/* --------------------------------------------- */
+/*7. Direct child*/
+/*parent > child */
+/* u > i{
+    color: pink;
+    background-color: yellow;
+} */
+
+/* Inline has the highest precedence, after that external, then after only internal */
+
+/* h5{
+    color: red;
+    background-color: blueviolet;
+} */
+
+
+/* Box Model */
+h2{
+    border: 2px solid black;
+    padding: 10px 15px 20px 30px; /*Clockwise: top, right, bottom, left */
+    /* padding: 20px
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 30px; */
+    margin: 30px;
+    /* margin: 10px 15px 20px 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px; */
+}
+
+/* Margin: Apply space out of the box
+Padding: Apply Spaces inside the box */

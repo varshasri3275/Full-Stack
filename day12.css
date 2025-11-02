@@ -1,0 +1,95 @@
+/* Hover State: 
+    >> Pointing the cursor on the button */
+button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    /* cursor: progress; */
+}
+
+/* Active State:
+    >> When we hold left key of the mouse it will be in active state */
+button:active{
+    border: 10px solid red;
+}
+
+/* Focus State:
+    >> Indicating you already visited that button / or opened or clicked the button */
+/* button:focus{
+    background-color: pink;
+    color: white;
+} */
+
+/* anchor visited link state */
+/* a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    cursor: progress;
+} */
+
+/* span{
+    padding: 8px;
+    margin: 8px;
+    background-color: yellow;
+}
+
+span:first-child{
+    background-color: pink;
+}
+
+span:last-child{
+    background-color: pink;
+}
+
+span:nth-child(2){
+    background-color: pink;
+}
+span:nth-child(even){
+    background-color: aqua;
+} */
+
+
+/* Pseudo Elements */
+
+/* h1::before{
+    content: "Hello ";
+}
+h1::after{
+    content: " G' Morning";
+} */
+
+.shape{
+    margin: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.shape::before{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.shape::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

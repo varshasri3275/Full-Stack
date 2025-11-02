@@ -1,0 +1,23 @@
+div{
+    background-color: yellow;
+    color: black;
+    border: 2px solid red;
+    border-radius: 25%;
+}
+span{
+    background-color: yellow;
+    color: black;
+    border: 2px solid red;
+    border-radius: 25%;
+}
+
+/* 
+CSS Selectors:
+    >>Universal Selector (*)
+    >>Id Selector (#)
+    >>Class Selector (.)
+    >>Element Selector
+    >>Selector List 
+    >>Descendant Selector 
+    >>Direct child Selector 
+*/

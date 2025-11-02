@@ -1,0 +1,168 @@
+/* Box Model */
+/* h6{
+    background-color: black;
+    color: white;
+    border: 2px dotted red; */
+    /* padding-left: 15px; */
+    /* padding: 10px 0 0 15px; */
+    /* margin-left: 20px; */
+    /* margin: 0 0 0 20px;
+} */
+
+/*
+Spacings:
+Padding => Interanl to Box/Border
+Margin  => External to Box/Border
+*/
+
+
+/* Display */
+
+/* Block */
+/* .displayInCSS1{
+    display: block;
+    background-color: yellow;
+    color: aqua;
+    height: 55px;
+    width: 60px;
+}
+
+.displayInCSS2{
+    display: block;
+    background-color: red;
+    color: white;
+    height: 45px;
+} */
+
+/* Inline */
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+/* .displayInCSS1{
+    display: inline;
+    background-color: yellow;
+    color: aqua;
+    height: 55px;
+    width: 60px;
+}
+
+.displayInCSS2{
+    display: inline;
+    background-color: red;
+    color: white;
+    height: 45px;
+}   */
+
+/* inline don't need any additional attribute, because don't
+work , they are the default feature, they won't take any 
+extra spaces */
+
+
+/* Inline-block */
+/* .displayInCSS1{
+    display: inline-block;
+    background-color: yellow;
+    color: aqua;
+    height: 55px;
+    width: 80px; 
+}
+
+.displayInCSS2{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    height: 45px;
+    width: 80px;
+}  */
+
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+} */
+
+
+/* Positions */
+/* 1. Static position */
+/* 
+    >>It's by default
+    >>Hey I just don't wanna fight with anyone else(elements), I will just
+    occupy some empty space
+*/
+/* .positionsInCSS{
+    position: static;
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+} */
+
+/* 2. Relative position */
+    /* >>It's relative to its original position/static/default position
+    >>offset: top, right, bottom, left */
+/* .positionsInCSS{
+    position: relative;
+    background-color: black;
+    top: 20px;
+    left: 30px;
+    color: white;
+    border: 1px solid red;
+} */
+
+
+/* 3. Fixed position */
+/* 
+    >>Here the highlighted section will be fixed to a specific position
+    even on scrolling either of the direction
+*/
+/* .positionsInCSS{
+    position: fixed;
+    background-color: black;
+    top: 20px;
+    left: 30px;
+    color: white;
+    border: 1px solid red;
+} */
+
+
+/* 4. Absolute position */
+/* 
+    >>It should always have a parent
+    >>The parent should be of position: relative
+    >>The offsets values are with respect to the parent not with respect to the entire UI
+    -----------------------------------------------------------------------------------------
+    >>If we don't have any parent for position:absolute
+    >>Then by default it considers the body as the parent
+    >>And body exactly acts as relative in nature
+*/
+/* #parent{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border: 2px dashed black;
+}
+.positionsInCSS{
+    position: absolute;
+    background-color: black;
+    top: 20px;
+    left: 30px;
+    color: white;
+    border: 1px solid red;
+} */
+
+
+/* 5. Sticky */
+/* 
+    >>It will be scrolled to certain extend and later it 
+    just get fixed or sticked to the position
+*/
+.positionsInCSS{
+    position: sticky;
+    background-color: black;
+    top: 20px;
+    left: 50px;
+    color: white;
+    border: 1px solid red;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms in HTML</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td><label>Name:</label></td>
+                <td><input type="text" placeholder="Enter your name" required/></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" placeholder="Enter your password" value="uhvijjvis" required/></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td><input type="radio" name="gender" checked/><label>Male</label></td>
+                <td><input type="radio" name="gender"/><label>Female</label></td>
+                <td><input type="radio" name="gender"/><label>Prefer not to say</label></td>
+            </tr>
+            <tr>
+                <td><label>Select courses</label></td>
+                <td><input type="checkbox" name="coursej" checked/><label>Java</label></td>
+                <td><input type="checkbox" name="coursep"/><label>Python</label></td>
+                <td><input type="checkbox" name="coursec"/><label>C</label></td>
+                <td><input type="checkbox" name="coursecp"/><label>C++</label></td>
+            </tr>
+            <tr>
+                <td><label>DOB:</label></td>
+                <td><input type="datetime-local" placeholder="Enter you date of birth"/></td>
+            </tr>
+            <tr>
+                <td><label>Select a Course:</label></td>
+                <td><select>
+                        <option value=""></option>
+                        <option value="cse">CSE</option>
+                        <option value="it">IT</option>
+                        <option value="ece">ECE</option>
+                        <option value="eee">EEE</option>
+                        <option value="civ">Civil</option>
+                        <option value="mec">Mech</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><input type="submit"/></td>
+                <td><input type="reset"/></td>
+            </tr>
+        </table>
+        <hr/>
+        <!-- Form -->
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name" required/>
+            <br/>
+            <br/>
+            <label>Password:</label>
+            <input type="password" placeholder="Enter your password" value="uhvijjvis" required/>
+            <br/>
+            <br/>
+            <label>Gender:</label>
+            <!-- ctrl+alt+arrow(up or down) -->
+            <input type="radio" name="gender" checked/><label>Male</label>
+            <input type="radio" name="gender"/><label>Female</label>
+            <input type="radio" name="gender"/><label>Prefer not to say</label>
+            <br/>
+            <br/>
+            <label>Select courses</label>
+            <input type="checkbox" name="coursej" checked/><label>Java</label>
+            <input type="checkbox" name="coursep"/><label>Python</label>
+            <input type="checkbox" name="coursec"/><label>C</label>
+            <input type="checkbox" name="coursecp"/><label>C++</label>
+            <br/>
+            <br/>
+            <label>DOB:</label>
+            <input type="datetime-local" placeholder="Enter you date of birth"/>
+            <br/>
+            <br/>
+            <label>Select a Course:</label>
+            <select>
+                <option value=""></option>
+                <option value="cse">CSE</option>
+                <option value="it">IT</option>
+                <option value="ece">ECE</option>
+                <option value="eee">EEE</option>
+                <option value="civ">Civil</option>
+                <option value="mec">Mech</option>
+            </select>
+            <br/>
+            <br/>
+            <label>Resume</label>
+            <input type="file"/>
+            <br/>
+            <br/>
+            <input type="submit"/>
+            <input type="reset"/>
+        </form>
+    </body>
+</html>

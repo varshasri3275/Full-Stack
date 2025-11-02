@@ -1,0 +1,18 @@
+/* Media queries */
+@media only screen and (min-width: 400px) {
+    h1{
+        color: blue;
+    } 
+}
+
+@media only screen and (min-width: 200px) {
+    h1{
+        color: yellow;
+    } 
+}
+/* 
+>> max-width
+    Eg: max-width: 400px{Screen size is <=400px}
+>> min-width
+    Eg: min-width: 400px{Screen size is >=400px}
+*/
